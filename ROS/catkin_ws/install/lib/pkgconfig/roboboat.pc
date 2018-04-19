@@ -1,0 +1,8 @@
+prefix=/home/boat-team/catkin_ws/install
+
+Name: roboboat
+Description: Description of roboboat
+Version: 0.0.1
+Cflags: -I/home/boat-team/catkin_ws/install/include
+Libs: -L/home/boat-team/catkin_ws/install/lib 
+Requires: 
