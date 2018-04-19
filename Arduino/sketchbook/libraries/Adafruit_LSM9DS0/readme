@@ -1,0 +1,3 @@
+The original folder was empty but the sensor is a 9 DoF IMU
+Sparfun and Adafruit offers and is a cheap IMU Kalman filter or any other filtering process for sensor fusion is required to 
+increase the precision and get ride of the cumulative error.
