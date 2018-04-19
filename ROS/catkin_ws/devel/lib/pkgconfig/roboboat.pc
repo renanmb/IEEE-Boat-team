@@ -1,0 +1,8 @@
+prefix=/home/boat-team/catkin_ws/devel
+
+Name: roboboat
+Description: Description of roboboat
+Version: 0.0.1
+Cflags: -I/home/boat-team/catkin_ws/devel/include
+Libs: -L/home/boat-team/catkin_ws/devel/lib 
+Requires: 
