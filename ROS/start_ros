@@ -1,0 +1,21 @@
+#!/bin/bash
+
+source /opt/ros/jade/setup.bash
+
+tmux new-session -n "Monitor" -d htop
+tmux split-window roscore
+
+sleep 5
+rosparam set hokuyo_node/port /dev/ttyACM0
+rosparam set hokuyo_node/min_ang -2.35
+rosparam set hokuyo_node/max_ang 2.35
+
+tmux new-window -n "Hokuyo Node" "rosrun hokuyo_node hokuyo_node"
+
+tmux new-window -n "Shell"
+
+
+
+tmux -2 attach-session
+
+
